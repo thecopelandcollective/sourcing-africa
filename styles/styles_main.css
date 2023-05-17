@@ -1,5 +1,127 @@
 /*---------------------------------------------
 --------------------LAYOUT-------------------*/
-.container {
+body {
+  font-family: "century-gothic", sans-serif;
+    Font-size 76%;
+    font-weight: 400;
+    font-style: normal;
+}
+.hero {
+  background: url("../img/Sourcing Africa Trip Cape Town 2023 v2_JJ-81.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 35vh;
+}
 
+.nav-item {
+  padding: 0 10px;
+}
+
+.section-heading {
+  border-top: 3px solid #b46b32;
+  border-bottom: 3px solid #b46b32;
+}
+
+.capetown-heading {
+  background: url("../img/capetown beaches.png") no-repeat center center;
+    background-size: cover;
+}
+
+.article {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.overlap-front {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  z-index: 999999;
+}
+
+.overlap-back {
+  float: right !important;
+  z-index: 9999;
+}
+
+.card {
+  border-radius: 0 !important;
+}
+
+.border-primary {
+  border: 3px solid #b46b32 !important;
+}
+
+.footer {
+  height: 15vh;
+  background: #b46b32;
+}
+
+.full-image {
+  width: 100%;
+}
+
+.sa-form {
+  width: 80%;
+  margin: 0 auto;
+}
+input[type=text], input[type=email] {
+  border-radius: 0 !important;
+  border: 1px solid #b46b32 !important;
+}
+.form-check-input {
+  width: 12px;
+  height: 12px;
+  border-radius: 0!important;
+  border: 1px solid #b46b32 !important;
+}
+.sa-button {
+  padding: 10px 45px;
+  background: #b46b32;
+  color: #000000;
+  border: none;
+  border-radius: 0;
+}
+.sa-button:hover {
+  background: #c57d46;
+  transition: ease all .4s;
+  cursor: pointer;
+}
+
+/*---------------------------------------------
+----------------TYPOGRAPHY-------------------*/
+.nav a {
+  font-size: 16pt;
+  color: #111111;
+}
+.nav a:hover {
+  color: #b46b32;
+}
+
+h1 blockquote{
+  font-size: 32pt;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 56pt;
+}
+h3 {
+  font-size: 36pt;
+}
+h4 {
+  font-size: 24pt;
+}
+h5 {
+  font-size: 18pt;
+}
+p {
+  font-size: 16pt;
+}
+
+.light-heading {
+  color: #ffffff;
 }
