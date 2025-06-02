@@ -1,5 +1,6 @@
 <!DOCTYPE html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://use.typekit.net/ymh7ezm.css">
     <link rel="stylesheet" type="text/css" href="styles/styles_main.css">
@@ -16,38 +17,7 @@
           <h2>Your Personal Invitation</h2>
         </div>
       </div>
-      <div class="row pt-5 pb-5 text-center">
-        <div class="col">
-          <h4>Discover Africa through the lense of design.<br> Join us for a once-in-a-lifetime experience.<h4>
-          <p>Express your interest in our 2024 trip by filling in the form below.</p>
-        </div>
-      </div>
-      <div class="row pb-5 justify-content-center">
-        <div class="col">
-          <form class="sa-form" name="contact" method="POST" netlify>
-            <div class="row mb-3">
-              <div class="col">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" name="first name" id="firstName" class="form-control form-control-lg" placeholder="" aria-label="First name">
-              </div>
-              <div class="col">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" name="last name" id="lastName" class="form-control form-control-lg" placeholder="" aria-label="Last name">
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="emailAddress" class="form-label">Email address</label>
-              <input type="email" name="email" class="form-control form-control-lg" id="emailAddress" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" name="check yes for email" class="form-check-input" id="Check1">
-              <label class="form-check-label" for="Check1">Yes, I want to receive email updates about the 2024 trip.</label>
-            </div>
-            <button type="submit" class="btn sa-button">Submit</button>
-          </form>
-        </div>
-      </div>
+      <contact-form></contact-form>
     </div>
     <div class="container-fluid footer">
       <main-footer></main-footer>
