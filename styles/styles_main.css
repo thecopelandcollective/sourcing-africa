@@ -32,6 +32,15 @@ body {
     padding-top: 15vh;
 }
 
+.egypt-hero {
+  background: url("../img/Nile-River-History-Egypt-Tours-Portal-529116969.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding-top: 15vh;
+}
+
 .nav-item {
   padding: 0 10px;
 }
@@ -56,6 +65,9 @@ body {
   top: 12%;
   left: 0;
   z-index: 999999;
+  width: 35rem;
+  padding: 50px;
+  clear: none;
 }
 
 .overlap-back {
@@ -85,6 +97,10 @@ body {
   margin: 0 auto;
 }
 input[type=text], input[type=email] {
+  border-radius: 0 !important;
+  border: 1px solid #b46b32 !important;
+}
+.custom-select {
   border-radius: 0 !important;
   border: 1px solid #b46b32 !important;
 }
@@ -168,4 +184,53 @@ blockquote {
 .light-heading {
   color: #ffffff;
   text-shadow: 2px 3px 12px rgba(0,0,0,0.5);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  /* Form layout to single column */
+  .sa-form .form-row {
+    display: block;
+  }
+  .sa-form .form-row .col {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Reduce H1 blockquote font size */
+  h1 blockquote {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .sa-button {
+    width: 100%;
+  }
+  .overlap-front {
+    position: relative;
+    width: 100% !important;
+    padding: 0px !important;
+    clear: none;
+  }
+
+  .overlap-back {
+    float: none !important;
+    width: 100%;
+  }
+
+  .nav-item {
+    padding: 0 0 0 60px !important;
+  }
 }
